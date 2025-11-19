@@ -1,13 +1,115 @@
-# macOS
-.DS_Store
+########################
+# macOS system files   #
+########################
 
-# Xcode user data
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+
+########################
+# Xcode project        #
+########################
+
+# Build products
+build/
+DerivedData/
+
+# Old-style user files (до сих пор появляются в некоторых кейсах)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Пользовательские настройки Xcode (то, что тебя мучило)
 xcuserdata/
+**/*.xcuserdatad/
 *.xcuserstate
 
-# Derived data / build products
-DerivedData/
-build/
+# Временные и служебные файлы Xcode
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
 
-# SwiftPM artifacts
+# Отчёты покрытия/профилирования Xcode
+*.xccovreport
+*.xccovarchive
+
+
+########################
+# Swift Package Manager#
+########################
+
+# Каталог сборки SPM
 .build/
+
+# Локальные данные SPM для Xcode
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+
+########################
+# CocoaPods            #
+########################
+
+# Каталог зависимостей
+Pods/
+
+# Podfile и Podfile.lock НЕ игнорируем — их нужно коммитить.
+
+
+########################
+# Carthage             #
+########################
+
+Carthage/Build/
+
+
+########################
+# fastlane             #
+########################
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+
+########################
+# Archives / dSYM      #
+########################
+
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+
+########################
+# IDE / Editors        #
+########################
+
+# AppCode / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# Vim / прочие
+*~
+*.swp
+*.swo
