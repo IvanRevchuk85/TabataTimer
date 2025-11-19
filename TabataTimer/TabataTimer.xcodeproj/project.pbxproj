@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C3D87102ECDE02800AA3DDC /* TabataTimer.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TabataTimer.xctestplan; sourceTree = "<group>"; };
 		2CEDC0A32ECCE3D600B313F8 /* TabataTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabataTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CEDC0B02ECCE3D800B313F8 /* TabataTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabataTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CEDC0BA2ECCE3D800B313F8 /* TabataTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabataTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +44,21 @@
 		2CEDC0BD2ECCE3D800B313F8 /* TabataTimerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TabataTimerUITests;
+			sourceTree = "<group>";
+		};
+		2CEDC0CD2ECDB65600B313F8 /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2CEDC0D12ECDB6AD00B313F8 /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2CEDC0D62ECDB70C00B313F8 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +91,10 @@
 		2CEDC09A2ECCE3D600B313F8 = {
 			isa = PBXGroup;
 			children = (
+				2C3D87102ECDE02800AA3DDC /* TabataTimer.xctestplan */,
+				2CEDC0D62ECDB70C00B313F8 /* Resources */,
+				2CEDC0D12ECDB6AD00B313F8 /* Features */,
+				2CEDC0CD2ECDB65600B313F8 /* Core */,
 				2CEDC0A52ECCE3D600B313F8 /* TabataTimer */,
 				2CEDC0B32ECCE3D800B313F8 /* TabataTimerTests */,
 				2CEDC0BD2ECCE3D800B313F8 /* TabataTimerUITests */,
@@ -109,6 +129,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				2CEDC0A52ECCE3D600B313F8 /* TabataTimer */,
+				2CEDC0CD2ECDB65600B313F8 /* Core */,
+				2CEDC0D12ECDB6AD00B313F8 /* Features */,
+				2CEDC0D62ECDB70C00B313F8 /* Resources */,
 			);
 			name = TabataTimer;
 			packageProductDependencies = (
@@ -413,6 +436,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanrevchuk.TabataTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -445,6 +472,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanrevchuk.TabataTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
