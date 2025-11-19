@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "49EFB797-4527-435E-94BC-E850FDC5A95D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TabataTimer.xcodeproj",
+      "identifier" : "2CEDC0A22ECCE3D600B313F8",
+      "name" : "TabataTimer"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TabataTimer.xcodeproj",
+        "identifier" : "2CEDC0AF2ECCE3D800B313F8",
+        "name" : "TabataTimerTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "skippedTests" : [
+        "TabataTimerUITests",
+        "TabataTimerUITests\/testExample()",
+        "TabataTimerUITests\/testLaunchPerformance()",
+        "TabataTimerUITestsLaunchTests",
+        "TabataTimerUITestsLaunchTests\/testLaunch()"
+      ],
+      "target" : {
+        "containerPath" : "container:TabataTimer.xcodeproj",
+        "identifier" : "2CEDC0B92ECCE3D800B313F8",
+        "name" : "TabataTimerUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

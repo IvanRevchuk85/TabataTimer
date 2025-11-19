@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C3D87102ECDE02800AA3DDC /* TabataTimer.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TabataTimer.xctestplan; sourceTree = "<group>"; };
 		2CEDC0A32ECCE3D600B313F8 /* TabataTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabataTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CEDC0B02ECCE3D800B313F8 /* TabataTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabataTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CEDC0BA2ECCE3D800B313F8 /* TabataTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabataTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +91,7 @@
 		2CEDC09A2ECCE3D600B313F8 = {
 			isa = PBXGroup;
 			children = (
+				2C3D87102ECDE02800AA3DDC /* TabataTimer.xctestplan */,
 				2CEDC0D62ECDB70C00B313F8 /* Resources */,
 				2CEDC0D12ECDB6AD00B313F8 /* Features */,
 				2CEDC0CD2ECDB65600B313F8 /* Core */,
